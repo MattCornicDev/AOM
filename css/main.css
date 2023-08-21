@@ -36,6 +36,7 @@ header{
 .navbar-default{
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #3924c7;
 }
 .navbar-fixed-top {
     top: 0px;
@@ -483,8 +484,9 @@ header{
     margin: 0;
 }
 .author-name-sign{
-    font-size:14px;
-    font-family: 'WeblySleek UI';
+    font-size:21px;
+    font-family: 'weblysleek_uilight';
+    color: rgb(99, 99, 99)
 }
 .client-section{
     background-position-x: 20%;
@@ -742,7 +744,7 @@ footer{
     vertical-align: middle;
 }
 .max-height-60{
-    max-height: 60px;
+    max-height: 90px;
 }
 .align--center{
     margin: 0 auto;
