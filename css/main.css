@@ -60,7 +60,7 @@ header{
 .navbar-brand>img{
     width: 75px;
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 2rem       ;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -484,8 +484,15 @@ header{
     font-family: 'weblysleek_uilight';
     color: rgb(99, 99, 99)
 }
-.client-section{
+.client-section {
+    background-image:url("/images/confiance.jpg");
     background-position-x: 20%;
+    background-position-y: 100%;
+}
+.client-section p{
+    color: #eaedef;
+    font-weight:bolder;
+    font-size: 41px;
 }
 .category-name{
     font-size: 10px;
