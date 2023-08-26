@@ -20,7 +20,7 @@ p{
     padding-top: 120px;
     padding-bottom: 90px;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .regular-content{
     font-family: 'WeblySleek UI';
@@ -29,6 +29,7 @@ header{
     text-transform: uppercase;
     color: #007ee5;
 }
+
 .featured-image-container {
     padding: 50px 35px;
 }
@@ -37,7 +38,7 @@ header{
 .navbar-default{
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(148, 131, 245, 0.2);
     border: none;
 }
 .navbar-fixed-top {
@@ -47,7 +48,7 @@ header{
     margin-right: 0px;
 }
 .navbar-brand{
-   
+   margin-top: -15px;
 }
 .navbar-brand .text--bold{
     font-weight: 700;
@@ -64,12 +65,14 @@ header{
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #007ee5;
+    color: #ef6419;
     background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #007ee5;
+    color: #ffffff;
     background-color: transparent;
+    font-size: 11px;
+    transition: font-size 0.3s ease;
 }
 .navbar-default .navbar-nav>li>a {
     color: #f0eaea;
@@ -95,13 +98,15 @@ header{
 .jumbotron-section{
     padding: 0;
     width: 100%;
-   
+    background-image: url("/images/background-aom.jpg"); 
 }
 
 .jumbotron-section h2{
     font-family: 'weblysleek_uisemibold';
-    font-size: 45px;
-    color: #f1eeee;
+    font-size: 65px;
+    background: -webkit-linear-gradient(89.97deg, #ef6419 1.84%, #ef905d 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     line-height: 1.222;
 }
 .jumbotron p{
@@ -450,7 +455,7 @@ header{
     padding: 18px 54px;
 }
 .btn-theme{
-    background-color: #007ee5;
+    background-color: #ef6419 ;
     color: #fff;
     border-color: transparent;
     border:0px;
@@ -503,12 +508,15 @@ header{
     padding: 5px 10px;
 }
 .section-news{
-    background-color: #f4f4f4;
+    background: rgb(250,6,219);
+background: linear-gradient(130deg, rgba(250,6,219,1) 0%, rgba(166,237,227) 30%, rgba(0,89,255,1) 100%);
 }
 .news-card{
     position: relative;
     margin: 20px;
-    box-shadow: #333333 0px 0px 20px 0px;
+    box-shadow:  10px 10px 5px 5px #000000;
+    height: 450px;
+    
 }
 .news-content{
     padding-left: 15px;
@@ -592,7 +600,10 @@ header{
 }
 .list-item-header {
     font-family: 'weblysleek_uisemilight';
-    color: #007ee5;
+    background: -webkit-linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.222;
     font-size: 21px;
     text-transform: uppercase;
     padding-left: 5px;
@@ -608,7 +619,8 @@ header{
     left: 5px;
     height: 1px;
     width: 20%;
-    background-color: #007ee5;
+    background-color: #AE67FA;
+  
 }
 .contact-media-left{
     min-width: 100px;
@@ -687,7 +699,7 @@ footer{
 }
 .copyright{
     color: #b6b6b6;
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'weblysleek_uisemilight';
     line-height: 1.2;
     
@@ -833,6 +845,7 @@ footer{
     .subscribe-card h3{
         font-size: 18px;
     }
+    
     .navbar-brand{
         font-size: 14px;
     }
