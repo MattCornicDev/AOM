@@ -514,19 +514,34 @@ background: linear-gradient(130deg, rgba(250,6,219,1) 0%, rgba(166,237,227) 30%,
 .news-card{
     position: relative;
     margin: 20px;
-    box-shadow:  10px 10px 5px 5px #000000;
-    height: 450px;
+    box-shadow: 5px 2px 15px 5px #000000;
+    height: 400px;
+    overflow: hidden;
+    transition: 0.5s;
     
 }
 .news-content{
-    padding-left: 15px;
-    padding-right: 15px;
     position: absolute;
     bottom: 0px;
     left: 0;
     padding-bottom: 15px;
     background-color: rgba(0,0,0,0.2);
     width:100%;
+    height: 100px;
+    visibility: hidden;
+}
+.news-card:hover .news-content {
+    height: 120px;
+    bottom: 0px;
+    background: rgb(7, 7, 7, 0.4);
+    visibility: visible;
+    opacity: 1;
+    transition: 1s; 
+}
+
+.news-card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+    transition: 1s;
 }
 .news-title{
     line-height: 1.2;
