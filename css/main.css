@@ -559,10 +559,6 @@ background: linear-gradient(130deg, rgba(250,6,219,1) 0%, rgba(166,237,227) 30%,
 }
 .subscribe-addons {
     padding: 6px 20px;
-    background-color: #007de4;
-    color: #fff;
-    text-transform: uppercase;
-    border-color: #007de4;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     cursor: pointer;
@@ -681,6 +677,7 @@ background: linear-gradient(130deg, rgba(250,6,219,1) 0%, rgba(166,237,227) 30%,
 .contact-media-left p{
     color:#007de4;
 }
+
 .language-list{
     color: #666666;
     font-size: 12px;
@@ -831,6 +828,30 @@ footer{
     line-height: 106px;
 }
 
+/* Bouton  */
+button {
+    height: auto;
+    width: auto;
+    text-align: justify;
+    background: linear-gradient(30deg,rgb(32, 252, 252),rgb(101, 101, 255)
+      ,rgb(254, 183, 196),rgb(224, 17, 224));
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px #25d0e3;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(30deg,rgb(224, 17, 224), pink, rgb(60, 60, 255), rgb(32, 252, 252));
+    box-shadow: 2px 4px 6px #a8097e;
+  }
 
 /******************************* RESPONSIVE ********************************/
 @media only screen and (min-width: 769px) {
