@@ -484,19 +484,17 @@ header{
     float: left;
     margin: 0;
 }
-.author-name-sign{
-    font-size:21px;
-    font-family: 'weblysleek_uilight';
-    color: rgb(99, 99, 99)
-}
 .client-section {
     background-image:url("/images/confiance.jpg");
-    background-position-x: 20%;
-    background-position-y: 100%;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    
 }
+
 .client-section p{
-    color: #eaedef;
-    font-weight:bolder;
+    color: #34a4ff;
+    font-weight:900;
     font-size: 41px;
 }
 .category-name{
@@ -1272,8 +1270,8 @@ button {
 }
 
 .btn-default:hover{
-    background-color: #005499;
-    color: #fff;
+    background-color: rgb(117, 251, 253);
+    color: #040404;
 }
 .bg-white{
     background-color: #fff;

@@ -28,6 +28,15 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,700,900" rel="stylesheet">
 
+  <!-- Email JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("xd6hcsAADdsTCTB_f");
+    })();
+  </script>
+
 </head>
 
 <body>
@@ -58,8 +67,8 @@
           <!-- <li><a href="#clients">clients</a></li> -->
           <li><a href="#blog">news</a></li>
           <li><a href="#contact">contact</a></li>
-          <li><a href="#" class="btn btn-icon btn-round"><span class="btn-icon-container"><i
-                  class="lnr lnr-download"></i></span></a></li>
+          <li><a href="/images/brochure.pdf" target="_blank" class="btn btn-icon btn-round"><span
+                class="btn-icon-container"><i class="lnr lnr-download"></i></span></a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -390,22 +399,22 @@
 
   <!-- CLIENT -->
   <section id="clients" class="section client-section bg--position-center no-repeat bg-cover">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <p class="text-center">Ils nous font confiance</p>
       </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-6 ">
-          <img src="images/SFR_logo_2014.png" alt="Logo sfr"
-            class="img-responsive max-width-70 max-height-60 padding-15 align--center">
+      <div class="container-fluid">
+        <div class="row justify-content-between">
+          <div class="col-md-6 col-sm-6">
+            <img src="images/SFR_logo_2014.png" alt="Logo sfr"
+              class="img-responsive max-width-70 max-height-60 padding-15 align--center">
+          </div>
+          <div class="col-md-6 col-sm-6 ">
+            <img src="images/edf-logo.png" alt="Logo edf"
+              class="img-responsive max-width-70 max-height-60 padding-15 align--center">
+          </div>
         </div>
-        <div class="col-md-6 col-sm-6 ">
-          <img src="images/edf-logo.png" alt="Logo edf"
-            class="img-responsive max-width-70 max-height-60 padding-15 align--center">
-        </div>
-
       </div>
-      <div class="author-name-sign text-center">-Et de futurs autres entreprises-</div>
     </div>
   </section>
   <!-- CLIENT END -->
