@@ -33,7 +33,7 @@
   </script>
   <script type="text/javascript">
     (function () {
-      emailjs.init("xd6hcsAADdsTCTB_f");
+      emailjs.init("MYUkE2JqROlbfhkZb");
     })();
   </script>
 
@@ -226,7 +226,7 @@
                 <div class="col-md-8 col-md-offset-2">
                   <div class="testimonial-container">
                     <div class="client-details text-center">
-                      <img src="images/testimonial-2.png" alt="">
+                      <img src="images/testimonial-1.png" alt="">
                       <h5 class="client-name">Client satisfait</h5>
                       <hr class="section-devider">
                     </div>
@@ -460,7 +460,7 @@
 
         <div>
           <div class="news-card">
-            <img src="images/blog1.png" alt="" class="img-responsive max-width-100">
+            <img src="" alt="" class="img-responsive max-width-100">
             <div class="news-content">
               <p><span class="category-name">Mais encore</span></p>
               <p class="news-title">Nos futurs projets</p>
@@ -488,28 +488,28 @@
                 <div class="form-group">
 
                   <div class="input-group">
-                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Nom">
+                    <input type="text" class="form-control" id="name" placeholder="Nom">
                     <div class="input-group-addon subscribe-addons">
                     </div>
                   </div>
                   <div class="input-group">
-                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="société">
+                    <input type="text" class="form-control" id="societe" placeholder="société">
                     <div class="input-group-addon subscribe-addons">
                     </div>
                   </div>
                   <div class="input-group">
-                    <input type="email" class="form-control" id="exampleInputAmount" placeholder="votre@mail.com">
+                    <input type="email" class="form-control" id="email" placeholder="votre@mail.com">
                     <div class="input-group-addon subscribe-addons">
                     </div>
                   </div>
                   <div class="input-group">
-                    <textarea class="form-control" id="exampleInputAmount" placeholder="Message"
+                    <textarea class="form-control" id="message" placeholder="Message"
                       style="height: 200px; width: 400px; border-radius: 0%;"></textarea>
 
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">
+                  <button type="submit" onclick="sendMail()">
                     Envoyer
                   </button>
                 </div>
@@ -643,6 +643,9 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <!-- Dolphin JS -->
   <script src="js/main.js"></script>
+
+  <script src="sendMail.js"></script>
+
 </body>
 
 </html>

@@ -1270,8 +1270,11 @@ button {
 }
 
 .btn-default:hover{
-    background-color: rgb(117, 251, 253);
     color: #040404;
+    border-radius: 50px;
+    background: #75fbfd;
+    box-shadow:  20px 20px 60px #8181e9,
+             -20px -20px 60px #fdfeff;
 }
 .bg-white{
     background-color: #fff;
