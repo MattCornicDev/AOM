@@ -70,6 +70,6 @@ $(document).ready(function () {
 
 
 jQuery(window).on('load', function () {
-	jQuery(".cube-wrapper").delay(300).fadeOut();
-	jQuery(".preloader-body").delay(400).fadeOut();
+	jQuery(".cube-wrapper").delay(100).fadeOut();
+	jQuery(".preloader-body").delay(100).fadeOut();
 })
