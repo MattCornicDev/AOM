@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow);
+
 body{
     font-size: 16px;
     padding: 0px;
@@ -95,11 +97,13 @@ header{
     background-color: #eceeef;
     border-radius: .3rem;
 }
-.jumbotron-section{
-    padding: 0;
+
+.arriere-plan img{
+    position: absolute;
     width: 100%;
-    background-image: url("/images/background-aom.jpg"); 
-}
+    height: 100%;
+    z-index: -1;
+  }
 
 .jumbotron-section h2{
     font-family: 'weblysleek_uisemibold';
@@ -484,12 +488,12 @@ header{
     float: left;
     margin: 0;
 }
-.client-section {
-    background-image:url("/images/confiance.jpg");
-    width: auto;
-    height: auto;
-    opacity: 1;
-    
+.collaborateur img{
+    position: absolute; 
+    z-index: -1;
+    width: 100vh; 
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .client-section p{
@@ -1015,7 +1019,6 @@ button {
 
 /****************************************Preloader Css***********************/
 
-@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow);
 .preloader-body{
     position: fixed;
     top: 0;
