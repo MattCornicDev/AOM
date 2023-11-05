@@ -659,18 +659,21 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
   <script>
+    // Il prend la hauteur de l'écran
+    const minHeight = window.innerHeight;
+
     VANTA.BIRDS({
       el: "#oiseaux",
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
-      minHeight: 900.00,
+      minHeight: minHeight,
       minWidth: 200.00,
       scale: 1.00,
       scaleMobile: 1.00,
       backgroundColor: 0xffffff,
-      color1: 0xA8BE51,
-      color2: 0x000000,
+      color1: 0x0,
+      color2: 0x49137,
       alignment: 23.00
     })
 

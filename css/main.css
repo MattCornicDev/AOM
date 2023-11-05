@@ -40,7 +40,7 @@ header{
 .navbar-default{
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: rgba(148, 131, 245, 0.2);
+    background-color: rgba(247, 247, 249, 0.2);
     border: none;
 }
 .navbar-fixed-top {
@@ -71,7 +71,7 @@ header{
     background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #ffffff;
+   font-weight: bold; 
     background-color: transparent;
     font-size: 11px;
     transition: font-size 0.3s ease;
