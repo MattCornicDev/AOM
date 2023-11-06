@@ -41,7 +41,7 @@
 
 <body>
   <div class="arriere-plan">
-    <img src="images/background-aom.jpg" alt="arriere plan">
+    <div id="oiseaux"></div>
   </div>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -55,7 +55,9 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">
-          <img src="images/LOGO-AOM-CYMK-01.svg" alt="logo aom">
+          <div class="loader">
+            <img src="images/LOGO-AOM-CYMK-01.svg" alt="logo aom" class="rotate-right">
+          </div>
         </a>
       </div>
 
@@ -83,7 +85,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2 class="slogan">Éclairons vos connexions avec expertise</h2>
+            <h2 class="slogan">Éclairons vos connexions avec notre expertise</h2>
             <p class="lead">AOM, votre puissance électrique pour des bornes
               Wi-Fi sans limites !</p>
             <a class="btn btn-default btn-theme btn-rounded-corner" href="#" role="button">En savoir plus</a>
@@ -655,6 +657,29 @@
   <script src="js/main.js"></script>
 
   <script src="sendMail.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+  <script>
+    // Il prend la hauteur de l'écran
+    const minHeight = window.innerHeight;
+
+    VANTA.BIRDS({
+      el: "#oiseaux",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: minHeight,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      backgroundColor: 0xffffff,
+      color1: 0x0,
+      color2: 0x49137,
+      alignment: 23.00
+    })
+
+  </script>
 
 </body>
 
